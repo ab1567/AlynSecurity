@@ -9,7 +9,7 @@ templates that can be extended in subsequent phases.
 ## Structure
 
 ```
-alyanaguard/
+.
 ├── backend/         # FastAPI service for enrolment, policy and logs
 │   ├── app/
 │   │   ├── main.py           # Entry point for the API
@@ -33,6 +33,7 @@ alyanaguard/
 └── deploy/
     └── nginx.conf     # Example Nginx reverse proxy configuration
 ```
+
 
 ### Backend
 
